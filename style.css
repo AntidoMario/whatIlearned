@@ -54,16 +54,20 @@ p:hover {
 .back-button {
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #BB6B84; /* Red */
+    padding: 15px 30px; /* Increased padding */
+    background-color: #FF5E78; /* Pink */
     color: #ffffff;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 25px; /* Rounded border */
+    border: none; /* Remove border */
+    font-size: 16px;
     transition: background-color 0.3s ease;
 }
 
 .back-button:hover {
-    background-color: #E56666; /* Lighter Red on hover */
+    background-color: #E56666; /* Lighter pink on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Media Queries for different screen sizes */
