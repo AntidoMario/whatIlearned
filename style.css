@@ -2,22 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #222;
-    color: #fff;
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #333;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #444444;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
     text-align: center;
-    color: #ddd;
+    color: #ffffff;
 }
 
 .box {
@@ -30,25 +30,40 @@ h1, h2 {
 p {
     margin: 0;
     padding: 10px 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.3s ease;
-    color: #ddd;
+    color: #ffffff;
 }
 
 .understood {
-    background-color: #00796B; /* Dark green */
+    background-color: #5588A3; /* Blue */
 }
 
 .confused {
-    background-color: #FFC107; /* Yellow */
+    background-color: #B57B7D; /* Pink */
 }
 
 /* Hover effect */
 p:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #BB6B84; /* Red */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #E56666; /* Lighter Red on hover */
 }
 
 /* Media Queries for different screen sizes */
